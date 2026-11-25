@@ -1,0 +1,3 @@
+00:00 +0: loading /home/runner/work/haj/haj/test_shots/shots_test.dart
+00:00 +0: store and review screenshots
+00:04 +1: All tests passed!
