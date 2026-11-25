@@ -1,0 +1,43 @@
+name: hajj_guide
+description: "دليل الحج والعمرة — المناسك خطوة بخطوة، عداد الطواف والسعي، والأدعية الصحيحة. بدون إنترنت."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.6
+  intl: ^0.20.3
+  hijri: ^3.0.1
+  share_plus: ^13.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo_400Regular.ttf
+        - asset: assets/fonts/Cairo_600SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Cairo_700Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Cairo_800ExtraBold.ttf
+          weight: 800
+    - family: Amiri
+      fonts:
+        - asset: assets/fonts/Amiri_400Regular.ttf
+        - asset: assets/fonts/Amiri_700Bold.ttf
+          weight: 700
