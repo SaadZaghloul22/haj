@@ -1,0 +1,9 @@
+00:00 +0: loading /home/runner/work/haj/haj/test/hajj_test.dart
+00:00 +0: season Hajj 1448: Arafah falls in May 2027 (Umm al-Qura)
+00:00 +1: season during Hajj days the step index follows the day
+00:00 +2: season offset shifts the dates
+00:00 +3: content ids unique, every step has points, every dua has a source
+00:00 +4: content Umrah order: ihram, tawaf, sai, shaving
+00:00 +5: state progress, checklist and counters persist
+00:00 +6: home renders and opens the counter
+00:00 +7: All tests passed!
